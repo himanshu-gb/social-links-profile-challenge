@@ -45,6 +45,7 @@ body {
     width: 400px;
     padding: 1.5rem;
     background: var(--clr-neutral-Dark-Grey);
+    border-radius: 1rem;
 }
 
 .user-social-profile-links{
@@ -65,7 +66,7 @@ body {
     padding: 1rem;
     background: var(--clr-neutral-Grey);
     border-radius: 0.5rem;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .user-social-profile-links div:hover{
@@ -99,4 +100,10 @@ img {
     font-style: italic;
     color: var(--clr-Green);
     margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+img:hover{
+    cursor: pointer;
+    border: 1px solid var(--clr-Green);
 }
