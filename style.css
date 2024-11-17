@@ -46,6 +46,7 @@ body {
     padding: 1.5rem;
     background: var(--clr-neutral-Dark-Grey);
     border-radius: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .user-social-profile-links{
@@ -106,4 +107,13 @@ img {
 img:hover{
     cursor: pointer;
     border: 1px solid var(--clr-Green);
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(107, 80%, 62%);
 }
